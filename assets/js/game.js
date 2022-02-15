@@ -1,5 +1,13 @@
-window.prompt("What is your robot's name?");
+var playerName = window.prompt("What is your robot's name?");
+console.log(playerName);
 
-function fight(); {
+function fight() {
     window.alert("The fight has begun!");
   }
+
+  //fight();
+  
+  console.log(playerName);
+  console.log("This logs a string, good for leaving yourself a message");
+  console.log(10+10);
+  console.log("our robot's name is" + playerName)
